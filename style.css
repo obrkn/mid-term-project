@@ -1,0 +1,51 @@
+.font-header {
+  font-family: 'Judson', sans-serif;
+  font-weight: 700;
+}
+div#sidebar {
+  min-height: 100vh;
+  width: 280px;
+}
+
+header {
+  display: none;
+}
+
+#wrapper {
+  display: flex;
+}
+
+#main {
+  width: 100%;
+  min-height: 100%;
+}
+
+#home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-image: url('./main.jpeg');
+  background-color: #ccc;
+  background-size: cover;
+}
+
+h1 {
+  font-size: 64px;
+}
+
+
+@media screen and (max-width: 768px) {
+  div#sidebar {
+    display: none !important;
+  }
+
+  header {
+    display: block;
+  }
+
+  h1 {
+    font-size: 36px;
+  }
+}
