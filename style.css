@@ -26,7 +26,7 @@ header {
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  background-image: url('./main.jpeg');
+  background-image: url('./images/main.jpeg');
   background-color: #ccc;
   background-size: cover;
 }
